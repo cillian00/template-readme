@@ -77,11 +77,11 @@ e.g.
 [ Specify the persistence 
 platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it persists.]
 
-## Additional features if relevant),
+## Additional features (if relevant),
 
 [Mention any additional user features of your app that may not be obvious from the previous sections, e.g. pagination, extended filtering/sorting, searching.]
 
-## Independent learning if relevant),
+## Independent learning (if relevant),
 
 [Briefly explain any aspects of your assignment work that required independent learning/research on your behalf., e.g. 3rd-party components, libraries, tools. Include source code references.]
 
