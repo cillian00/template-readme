@@ -1,13 +1,10 @@
-# Assignment 1 - ReactJS app.
+# ICT Skills 2 Assignment.
 
 Name: [your name]
 
 ## Overview.
 
-[A brief statement on the content of this repository.]
-
-### Features.
-[ A bullet-point list of the __new features__ you added to the Movies Fan app (and any modifications to existing features) .]
+[ A paragraph on your React app's concept followed by a bullet-point list of its feature set - only list new/modified features if you are expanding the Movies app. ]
  
 + Feature 1
 + Feature 2
@@ -17,79 +14,78 @@ Name: [your name]
 
 ## Setup requirements.
 
-[ Outline any non-standard setup steps necessary to run your app locally after cloning the repo.]
-
-## API endpoints.
-
-[ List the __additional__ TMDB endpoints used, giving the description and pathname for each one.] 
-
-e.g.
-+ Discover list of movies - discover/movie
-+ Movie details - movie/:id
-+ Movie genres = /genre/movie/list
+[ Briefly state (to a third party) the setup steps necessary to run your app/client locally, e.g. .env and any other config files.]
 
 ## App Design.
 
-### Component catalogue.
+### Routing/Navigation.
 
-[ Insert a screenshot from the Storybook UI that lists all the stories for the app's components, and highlight those relating to your __new/modified components__ - see the example screenshot below.] .......
-
-![](./images/storybook.png)
-### UI Design.
-
-[ Insert screenshots of the __new/modified app pages__ you developed (and modified existing pages), Include an appropriate caption for each one (see example below).
-
-![ ](./images/view.png)
-
->Shows detailed information on a movie. Clicking the 'Reviews' floating action button will display extracts from critic reviews.
-
-![ ](./images/view.png)
-
->Shows detailed information on a movie. Clicking the 'Reviews' floating action button will display extracts from critic reviews.
-
-### Routing.
-
-[ List the __new routes__ supported by your app and state the associated page.]
-
-+ /blogs - displays all published blogs.
-+ /blogs/:id - displays a particular blog.
-+ /blogs/:id/comments - detail view of a particular blog and its comments.
+[List the set of routes your app supports - only mention new instances if you expanded the Movies Fan app. State the view linked with each route.] 
+e.g.
++ /movies/:id - detailed information on a specific movie.
++ /movies/upcoming - lists movies soon to be shown in cinemas.
++ etc.
 + etc.
 
-[If relevant, state what aspects of your app are protected (i.e. require authentication) and what is public.]
+### Views/Pages.
 
-## Independent learning (If relevant).
-
-[ Itemize the technologies/techniques you researched independently and adopted in your project, i.e. aspects not covered in the lectures/labs. Include the source code filenames that illustrate these (we do not require code excerpts) and provide references to the online resources that helped you (articles/blogs).
-
--------------------------------------------
-# Assignment 1 - Agile Software Practice.
-
-## Automated Testing.
-
-### Best test cases.
-
-[ List the top 4/5 test cases ('it' blocks), in your opinion, from your test suite that best demonstrate your competency in writing Cypress test code. Specify the test file name and the starting line number of the 'it' block, 
+[ For each view in your app, show a screenshot and caption  of each view in your app - only new/modified ones in the case of the Movies Fan app. If necessary, use multiple screenshots for a view to demonstrate its full capability.
 
 e.g.
-+ cypress/integration/mustWatch-movies-page.spec.js - line 24
-+ cypress/integration/actor-bio-page.spec.js - line 32
+>Lists movies from the Discover endpoint. Allows filtering on title and genre attributes.
+
+![][d1]
+
+![][d2]
+
+>Shows detailed information on a specific movie
+
+![][detail]
+
+
+#### Component catalogue.
+
+[ Use the Storyboook UI to highlight the new components for which you developed stories.]
+e.g.
+![][stories]
+
+## Caching.
+
+[ List the TMDB server state the app caches - additional to that covered in the labs. Include a screenshot(s) of the react-query dev tools to validate your list]
+e.g.
++ Discover movies (pagination support)
++ Movie details
+ + etc
 + etc
 
-### Cypress Custom commands (if relevant).
+![][caching]
+## Authentication (if relevant).
 
-[Specify the test file(s) that contain custom Cypress command implementations.]
+[Briefly state how you implemented authentication for the app, e.g. basic, Firebase, etc. Also, list the routes that are private/protected.]
 
-e.g.
-+ cypress/integration/mustWatch-novies-page.spec.js
-+ cypress/integration/actor-bio-page.spec.js
++ /reviews/:id
++ /movies/favourites
 
-## Code Splitting.
+## Server-side persistence (if relevant)
 
-[Show a screenshot of the 'build/static/js' folder of your project]
+[ Briefly state the persistence 
+platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it persists.]
 
-![](images/build.png)
+## Additional features,
 
-## Independent learning (If relevant).
+[Briefly state any additional features of your app that may not be obvious from the previous sections, e.g. pagination, extended filtering/sorting, searching.]
 
-[State which aspect of the Outstanding grading spectrum you addresses. Include relevant screenshots and links to services used, e.g. Percy project, Deployed app
+## Independent learning,
+
+[Briefly explain any aspects of your assignment work that required independent learning/research on your behalf., e.g. 3rd-party components, libraries, tools. Include source code references.]
+
+### Design patterns.
+
+Briefly state the application of any composition design pattern (i.e. Render props, Container) in your codebase. Distinguish between those relating to the reuse of patterns already implemented in the labs (e.g. TemplateMoviePage) and new occurrences. Code excerpts art NOT necessary.
+
+[d1]: ./public/discover1.png
+[d2]: ./public/discover2.png
+[dtl]: ./public/detail.png
+
+[view]: ./view.png
+[stories]: ./storybook.png
