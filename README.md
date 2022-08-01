@@ -32,7 +32,7 @@ e.g.
 
 ### Views/Pages.
 
-[ For each view in your app, show a screenshot and caption - only new/modified ones in the case of the Movies Fan app. If necessary, use multiple screenshots to clarify a view's full capability.
+[ For each view in your app, show a screenshot and caption - only new/modified ones in the case of the Movies Fan app. If necessary, use multiple screenshots to cover a view's full capability.
 
 e.g.
 >Lists movies from the Discover endpoint. Filtering on title and genre attributes is supported.
@@ -54,7 +54,7 @@ e.g.
 
 ## Caching.
 
-[ List the TMDB server state cached by the app - additional to that covered in the labs. Include a screenshot(s) of the react-query dev tools to validate your list.]
+[ List the TMDB server state cached by the app. Include a screenshot(s) of the react-query dev tools to validate your list.]
 
 e.g.
 + Discover movies (pagination support)
@@ -83,12 +83,10 @@ platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it pers
 
 ## Independent learning (if relevant),
 
-[Briefly explain any aspects of your assignment work that required independent learning/research on your behalf., e.g. 3rd-party components, libraries, tools. Include source code references.]
+[Briefly explain any aspects of your assignment work that required independent learning (i.e. not addressed in the lectures or labs) on your behalf., e.g. 3rd-party components, libraries, tools. Include source code references.]
 
 [d1]: ./public/discover1.png
 [d2]: ./public/discover2.png
 [detail]: ./public/detail.png
 [caching]: ./public/caching.png
-
-[view]: ./view.png
-[stories]: ./storybook.png
+[stories]: ./public/storybook.png
