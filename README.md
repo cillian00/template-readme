@@ -50,6 +50,7 @@ e.g.
 
 [ Use the Storybook UI to highlight the new components for which you developed stories.]
 e.g.
+
 ![][stories]
 
 ## Caching.
@@ -89,4 +90,4 @@ platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it pers
 [d2]: ./public/discover2.png
 [detail]: ./public/detail.png
 [caching]: ./public/caching.png
-[stories]: ./public/storybook.png
+[stories]: ./public/stories.png
