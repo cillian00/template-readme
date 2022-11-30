@@ -6,7 +6,8 @@ Name: [your name]
 
 ### New Pages.
 
-[ List the new pages you added to the Movies Fan add (include modifications to existing pages).]
+[ Provide a bullet-point list of the new pages you added to the Movies Fan add (include modifications to existing pages).]
+
 e.g.
 
 + List of Trending movies.
@@ -18,7 +19,9 @@ e.g.
 
 [ Provide a bullet-point list of the __new features__ you added to the Movies Fan app.] 
  
-+ Authentication (Basic)
+ e.g.
+
++ Authentication (using Firebase)
 + Create a fantasy movie (Basic)
 + Sort movie list by release date (e.g. the Discover Movies page)
 + etc
@@ -44,6 +47,8 @@ e.g.
 
 [ Insert a screenshot from the Storybook UI, and highlight the stories that relate to your __new/modified components__ - see the example screenshot below.] .......
 
+e.g.
+
 ![](./public/stories.png)
 
 ### UI Design.
@@ -61,6 +66,8 @@ e.g.
 ### Routing.
 
 [ List the __new routes__ supported by your app and state the associated page.]
+
+e.g. 
 
 + /actors - displays a list of popular actors.
 + /actors/:id - shows details about a particular actor.
