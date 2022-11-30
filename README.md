@@ -49,17 +49,17 @@ e.g.
 
 e.g.
 
-![](./public/stories.png)
+![](./images/stories.png)
 
 ### UI Design.
 
 [ Insert screenshots of the __new app pages__ you developed (including modified existing pages), Have an appropriate caption for each one (see example below).
 
-![ ](./public/detail.png)
+![ ](./images/detail.png)
 
 >Shows detailed information on a movie. Clicking the 'Reviews' floating action button will display extracts from critic reviews.
 
-![ ](./public/review.png)
+![ ](./images/review.png)
 
 >Shows the full review for a movie.
 
