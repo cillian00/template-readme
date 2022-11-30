@@ -1,93 +1,74 @@
-
-# ICT Skills 2 Assignment.
+# Web App Dev 2 - Assignment 1 - ReactJS app.
 
 Name: [your name]
 
 ## Overview.
 
-[ A paragraph on your React app's concept followed by a bullet-point list of its feature set - only list new/modified features if you are expanding the Movies app. ]
+### New Pages.
 
-e.g. 
-+ Feature 1
-+ Feature 2
-+ Feature 3
+[ List the new pages you added to the Movies Fan add (include modifications to existing pages).]
+e.g.
+
++ List of Trending movies.
++ (Modified) Movie Details page - added chips for .....
++ List of Actors.
 + etc
+
+### New Features.
+
+[ Provide a bullet-point list of the __new features__ you added to the Movies Fan app.] 
+ 
++ Authentication (Basic)
++ Create a fantasy movie (Basic)
++ Sort movie list by release date (e.g. the Discover Movies page)
 + etc
 
 ## Setup requirements.
 
-[ Briefly state (to a third party) the setup steps necessary to run your app/client locally, e.g. .env and any other config files.]
+[ Outline any non-standard setup steps necessary to run your app locally after cloning the repo.]
+
+## TMDB endpoints.
+
+[ List the __additional__ TMDB endpoints used, giving the description and pathname for each one.] 
+
+e.g.
+
++ /movies/{movie_id}/reviews - The user reviews or a movie.
++ /movie/{movie_id}/similar - A list of similar movies. 
++ /person/popular - A list of popular actors.
++ /tv/{tv_id}/videos - The videos for a TV show. 
 
 ## App Design.
 
-### Routing/Navigation.
-
-[List the set of routes your app supports - only mention new instances if you expanded the Movies Fan app. State the view linked with each route.] 
-
-e.g.
-+ /movies/:id - detailed information on a specific movie.
-+ /movies/upcoming - lists movies soon to be shown in cinemas.
-+ etc.
-+ etc.
-
-### Views/Pages.
-
-[ For each view in your app, show a screenshot and caption - only new/modified ones in the case of the Movies Fan app. If necessary, use multiple screenshots to cover a view's full capability.
-
-e.g.
->Lists movies from the Discover endpoint. Filtering on title and genre attributes is supported.
-
-![][d1]
-
-![][d2]
-
->Shows detailed information on a specific movie
-
-![][detail]
-
-
 ### Component catalogue.
 
-[ Use the Storybook UI to highlight the new components for which you developed stories.]
-e.g.
+[ Insert a screenshot from the Storybook UI, and highlight the stories that relate to your __new/modified components__ - see the example screenshot below.] .......
 
-![][stories]
+![](./public/stories.png)
 
-## Caching.
+### UI Design.
 
-[ List the TMDB server state cached by the app. Include a screenshot(s) of the react-query dev tools to validate your list.]
+[ Insert screenshots of the __new app pages__ you developed (including modified existing pages), Have an appropriate caption for each one (see example below).
 
-e.g.
-+ Discover movies (pagination support)
-+ Movie details
- + etc
-+ etc
+![ ](./public/detail.png)
 
-![][caching]
+>Shows detailed information on a movie. Clicking the 'Reviews' floating action button will display extracts from critic reviews.
 
-## Authentication (if relevant).
+![ ](./public/review.png)
 
-[Briefly state how you implemented authentication for the app, e.g. basic, Firebase, etc. Also, list the routes that are private/protected.]
+>Shows the full review for a movie.
 
-e.g.
-+ /reviews/:id
-+ /movies/favourites
+### Routing.
 
-## Server-side persistence (if relevant)
+[ List the __new routes__ supported by your app and state the associated page.]
 
-[ Specify the persistence 
-platform your app uses (e.g. TMDB lists, Firestore) and itemize the data it persists.]
++ /actors - displays a list of popular actors.
++ /actors/:id - shows details about a particular actor.
++ /actors/:id/movies (protected) - an actor's movie credits.
++ etc.
 
-## Additional features (if relevant),
+[If relevant, state what aspects of your app are protected/private (i.e. require authentication) and what is public.]
 
-[Mention any additional user features of your app that may not be obvious from the previous sections, e.g. pagination, extended filtering/sorting, searching.]
+## Independent learning (If relevant).
 
-## Independent learning (if relevant),
-
-[Briefly explain any aspects of your assignment work that required independent learning (i.e. not addressed in the lectures or labs) on your behalf., e.g. 3rd-party components, libraries, tools. Include source code references.]
-
-[d1]: ./public/discover1.png
-[d2]: ./public/discover2.png
-[detail]: ./public/detail.png
-[caching]: ./public/caching.png
-[stories]: ./public/stories.png
+[ Itemize the technologies/techniques you researched independently and adopted in your project, i.e. aspects not covered in the lectures/labs. Mention the source code filenames that illustrate these  (code excerpts are not required) and provide references to the online resources that helped you (articles/blogs).
